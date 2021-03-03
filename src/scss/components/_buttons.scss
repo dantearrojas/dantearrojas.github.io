@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  color: var(--color-white);
+  background-color: var(--color-dark);
+
+  margin: 0.5rem;
+  padding: 1rem;
+
+  font-size: calc(1rem + 0.5rem);
+  text-decoration: none;
+
+  outline: none;
+  appearance: none;
+  border-style: none;
+  border-radius: 10px;
+
+  transition: all 0.3s linear;
+
+  &:hover {
+    background-color: var(--color-dark-blue);
+    transform: scale(0.9);
+  }
+}
