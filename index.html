@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Primary Meta Tags -->
+    <title>Portafolio</title>
+    <meta name="title" content="Portafolio, Ing. Dante Rochabrun" />
+    <meta
+      name="description"
+      content="Conoce mis habilidades, proyectos, certificaciones y más, a tráves de mi portafolio web."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dantearrojas.github.io/" />
+    <meta property="og:title" content="Portafolio, Ing. Dante Rochabrun" />
+    <meta
+      property="og:description"
+      content="Conoce mis habilidades, proyectos, certificaciones y más, a tráves de mi portafolio web."
+    />
+    <meta
+      property="og:image"
+      content="https://dantearrojas.github.io/assets/images/cardPortafolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dantearrojas.github.io/" />
+    <meta property="twitter:title" content="Portafolio, Ing. Dante Rochabrun" />
+    <meta
+      property="twitter:description"
+      content="Conoce mis habilidades, proyectos, certificaciones y más, a tráves de mi portafolio web."
+    />
+    <meta
+      property="twitter:image"
+      content="https://dantearrojas.github.io/assets/images/cardPortafolio.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://dantearrojas.github.io/assets/images/logo.svg"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -17,28 +55,26 @@
       integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
       crossorigin="anonymous"
     />
-
-    <title>Portafolio</title>
   </head>
   <body>
     <!-- header -->
     <header class="header">
       <nav class="navbar">
         <div class="navbar__logo">
-          <a class="navbar__logo--link" href="#">Portafolio</a>
+          <a class="navbar__logo--link" href="/">Portafolio</a>
         </div>
         <ul class="navbar__list">
           <li class="navbar__list-item">
             <a class="navlink" href="#aboutMe">Quién Soy!</a>
           </li>
           <li class="navbar__list-item">
-            <a class="navlink" href="#">Habilidades</a>
+            <a class="navlink" href="#skill">Habilidades</a>
           </li>
           <li class="navbar__list-item">
-            <a class="navlink" href="#">Proyectos</a>
+            <a class="navlink" href="#projects">Proyectos</a>
           </li>
           <li class="navbar__list-item">
-            <a class="navlink" href="#">Contacto</a>
+            <a class="navlink" href="#contact">Contacto</a>
           </li>
         </ul>
         <i class="fas fa-bars"></i>
@@ -87,7 +123,7 @@
             <p class="aboutMe__content-text--p">
               Conocí el desarrollo web durante el inicio y culminación de mi
               carrera universitaria finalizada para el 2018. Previo a ello,
-              incursione en el mundo tecnológico como SoporteTI, fui adoptando
+              incursione en el mundo tecnológico como Soporte TI, fui adoptando
               el desarrollo web de manera apasionante y como principal
               habilidad, me robo la atención totalmente.
             </p>
@@ -146,8 +182,104 @@
             </div>
           </div>
         </div>
+        <div class="aboutMe__other">
+          <h2 class="aboutMe__other--title">Soporte y Redes</h2>
+          <p class="aboutMe__other--subtitle">
+            A pesar de enfocarme en el desarrollo web, también me permito
+            aplicar otras habilidades al campo de Soporte TI y Redes.
+          </p>
+          <section class="aboutMe__other--content">
+            <!-- Card one -->
+            <article class="card">
+              <div class="card__box">
+                <figure class="card__figure">
+                  <img
+                    class="card__image"
+                    src="https://image.freepik.com/free-vector/technical-support-guys-working-repairing-computer-hardware-software-troubleshooting-fixing-problems-problem-checking-concept_335657-1838.jpg"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <header class="card__header">
+                <h3 class="card__title">Mantenimiento</h3>
+                <p class="card__subtitle">Preventivo y Correctivo</p>
+              </header>
+              <div class="card__body">
+                <p class="card__text">
+                  Es importante chequear tus equipos o dispositivos electrónicos
+                  cada cierto tiempo motivado a detectar y prevenir fallos,
+                  alargando su vida util.
+                </p>
+              </div>
+              <footer class="card__footer">
+                <div class="card__action">
+                  <a class="btn btn--succes" href="#">Contacto</a>
+                </div>
+              </footer>
+            </article>
+            <!-- Card Two -->
+            <article class="card">
+              <div class="card__box">
+                <figure class="card__figure">
+                  <img
+                    class="card__image"
+                    src="https://image.freepik.com/free-vector/cloud-hosting-concept-illustration_114360-730.jpg"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <header class="card__header">
+                <h3 class="card__title">Servidores</h3>
+                <p class="card__subtitle">Administración / Instalación</p>
+              </header>
+              <div class="card__body">
+                <p class="card__text">
+                  Hoy día tenemos variedad de desafíos de TI, un servidor
+                  permite mayor organización y mejoras productiva, respaldo,
+                  compartir archivos, limitar accesos, entre otros grandes
+                  beneficios.
+                </p>
+              </div>
+              <footer class="card__footer">
+                <div class="card__action">
+                  <a class="btn btn--succes" href="#">Contacto</a>
+                </div>
+              </footer>
+            </article>
+            <!-- Card Three -->
+            <article class="card">
+              <div class="card__box">
+                <figure class="card__figure">
+                  <img
+                    class="card__image"
+                    src="https://image.freepik.com/free-vector/technology-halftone-modern-background_1409-856.jpg"
+                    alt=""
+                  />
+                </figure>
+              </div>
+              <header class="card__header">
+                <h3 class="card__title">Redes</h3>
+                <p class="card__subtitle">Administración / Instalación</p>
+              </header>
+              <div class="card__body">
+                <p class="card__text">
+                  Permitir la comunicación continua entre tus equipos de
+                  computo, es importante a la hora de agilizar trabajos y
+                  compartir información, siempre disponga de acceso a sus
+                  aplicativos.
+                </p>
+              </div>
+
+              <footer class="card__footer">
+                <div class="card__action">
+                  <a class="btn btn--succes" href="#">Contacto</a>
+                </div>
+              </footer>
+            </article>
+          </section>
+        </div>
       </section>
     </main>
-    <script src="src/js/script.js"></script>
+    <script src="js/script.min.js"></script>
   </body>
 </html>

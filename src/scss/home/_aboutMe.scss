@@ -62,5 +62,48 @@
         }
       }
     }
+    @media only screen and (min-width: 320px) and (max-width: 565px) {
+      flex-direction: column;
+      overflow: hidden;
+
+      &-box {
+        width: 100%;
+      }
+      &-text {
+        width: 100%;
+      }
+      &-services {
+        &-section {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  &__other {
+    width: 100%;
+    // height: 100vh;
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+
+    &--title {
+      font-size: calc(1.5rem + 1vw);
+      text-align: center;
+      padding: 1rem;
+    }
+    &--subtitle {
+      font-size: calc(1rem + 0.5vw);
+      text-align: center;
+      padding: 1rem;
+    }
+    &--content {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
